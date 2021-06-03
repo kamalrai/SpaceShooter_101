@@ -1,6 +1,5 @@
 import pygame
 import os
-import time
 import random
 import os
 
@@ -183,7 +182,7 @@ def main():
 
     enemies = []
     wave_length = 10 # number of enemies in a wave
-    enemy_vel = 1 # movement speed of enemy ship
+    enemy_vel = 2 # movement speed of enemy ship
 
     player_vel = 6  # movement speed of player
     laser_vel = 20  # movement speed of laser
